@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- This file was created by html2epub1_config_create_new of html2epub1, which is free software licensed under the GNU Affero General Public License 3 or any later version (see https://github.com/skreutzer/automated_digital_publishing/). -->
+<html2epub1-config>
+  <in/>
+  <out>
+    <outDirectory/>
+    <metaData>
+      <title>Open Access, Freie Software und Co.: Eine Analyse der Gemengelage</title>
+      <creator>Markus Schnalke</creator>
+      <subject>Open Access</subject>
+      <description>Der Open Access ist eine recht junge Erscheinung verglichen mit der Freien Software, welche bereits in den 80er Jahren aufkam. Manche Entwicklungen beim Open Access scheinen sich in ähnlicher Weise bereits Jahre früher bei der Freien Software vollzogen zu haben. Für zukünftige Entwicklungen beim Open Access kann man somit eventuell auf die Erfahrungen bei der Freien Software und ähnlichen Bewegungen zurückgreifen, um Problemfelder und Umwege frühzeitig erkennen und darauf reagieren zu können. Neben der Freien Software gibt es weitere Strömungen. Darunter der Open Source, der zwar häufig synonym verwendet wird und auch große Überschneidungen hat, aber von anderen Beweggründen getrieben wird. Mit den Free Cultural Works wird eine vierte Strömung innerhalb der Welt des Free Content vorgestellt. Diese Strömungen werden einander gegenübergestellt. Ihre Hintergründe sind unterschiedlicher Art, somit auch die jeweilige Motivation. Dies hat wiederum Auswirkungen auf die Definitionen und Lizenzen der verschiedenen Bewegungen. Diese werden analysiert. In der folgenden Diskussion wird der Open Access im Bezug zu den anderen Strömungen eingeordnet, deren Erfahrungen abschließend auf den Open Access projeziert werden.</description>
+      <publisher>Stephan Kreutzer</publisher>
+      <identifier>open_access_freie_software</identifier>
+      <source>https://github.com/skreutzer/open_access_freie_software, http://journals.ub.uni-heidelberg.de/index.php/bibliothek/article/view/16806/pdf_2, http://hg.marmaro.de/docs/bib-ref2/</source>
+      <language>de</language>
+      <coverage>Open Access, Freie Software, Open Source, Free Cultural Works, Free Content</coverage>
+      <rights>Copyright (C) 2014 Markus Schnalke, lizenziert unter Creative Commons Attribution 4.0 International Public License via „Perspektive Bibliothek 3.2“ (2014), S. 44-60, doi: 10.11588 / pb.2014.2.16806. Lizenztext der Creative Commons Attribution 4.0 International Public License Copyright (C) 2009 Creative Commons, lizenziert unter CC0 Public Domain Dedication.</rights>
+    </metaData>
+  </out>
+</html2epub1-config>

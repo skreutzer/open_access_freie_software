@@ -1,0 +1,43 @@
+Der Text in open_access_freie_software.odt sowie als Bestandteil des Werks in den
+diversen Zielformaten unter $/out/ ist via „Perspektive Bibliothek 3.2“ (2014),
+S. 44-60, doi: 10.11588 / pb.2014.2.16806 unter Creative Commons Attribution 4.0
+International Public License lizenziert. Der Text in lizenzbestimmungen.odt sowie
+als Bestandteil des Werks in den diversen Zielformaten unter $/out/ ist unter
+CC0 Public Domain Dedication lizenziert. Für alle anderen Dateien des Repositorys,
+die Schöpfungshöhe erreichen sollten, gilt:
+
+    Copyright (C) 2015 Stephan Kreutzer, lizenziert unter Creative Commons
+    Attribution 4.0 International Public License
+
+Die diversen Zielformate können mit Commit #107 der Werkzeugsammlung
+automated_digital_publishing generiert werden. Hierfür braucht lediglich
+https://github.com/publishing-systems/automated_digital_publishing nach
+$/automated_digital_publishing/ heruntergeladen und kompiliert werden. Ein
+vorbereitetes Download-Package findet sich allerdings auch unter
+http://www.publishing-systems.org/downloads.php. Ferner muss zunächst
+$/automated_digital_publishing/workflows/setup1 ausgeführt werden.
+In dem vorbereiteten Download-Packages ist zu diesem Zweck
+$/automated_digital_publishing/workflows/run_setup1.sh vorgesehen. Ansonsten muss
+für die PDF-Erzeugung das LaTeX-Satzsystem installiert sein, was mit
+
+    sudo apt-get install texlive-latex-base
+    sudo apt-get install texlive-latex-memoir
+    sudo apt-get install texlive-lang-german
+
+erreicht werden kann. Anschließend genügt der Aufruf von $/run.sh, in $/out.log
+werden Ausgaben und potentiell Fehlermeldungen protokolliert.
+
+Dieses Verfahren wurde eingerichtet für eine 100% frei lizenzierte Betriebssystemumgebung,
+wobei aus http://www.gnu.org/distros/free-distros.html konkret gNewSense (http://www.gnewsense.org)
+herangezogen wurde. Der Code von automated_digital_publishing ist kompatibel mit Java 1.6 und
+höher sowie mit der OpenJDK-Implementierung, welche mittels
+
+    sudo apt-get install openjdk-6-jdk
+
+installiert werden kann. Freilich spricht nichts dagegen, dasselbe Verfahren auch
+auf unfreie und/oder nicht-unixoide Betriebssystemumgebungen zu portieren, weil
+aber eine solche Absicht dem Anliegen des Herausgebers zuwiderläuft, wird an dieser
+Stelle keine Anleitung dazu gegeben. Fragen, Vorschläge, Fehlermeldungen zur
+Aufbereitungssoftware jederzeit gerne an http://www.publishing-systems.org/contact.php
+richten.
+
